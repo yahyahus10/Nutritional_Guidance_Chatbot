@@ -1,0 +1,10 @@
+langchain-chroma
+langchain_community
+langchain_text_splitters
+pypdf
+sentence-transformers==2.2.2
+langchain
+ctransformers==0.2.5
+beautifulsoup4
+flask
+-e .
