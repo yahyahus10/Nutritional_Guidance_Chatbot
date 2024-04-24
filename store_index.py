@@ -6,7 +6,6 @@ Hypertension_document_web_1 = load_web("https://www.webmd.com/hypertension-high-
 Hypertension_document_web_2=load_web("https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/")
 
 extracted_merged_Hpertension_data = Hypertension_document_web_1 + Hypertension_document_pdf + Hypertension_document_web_2
-
 text_chunks=text_split(extracted_merged_Hpertension_data)
 embeddings=download_hugging_face_embeddings()
 
